@@ -23,7 +23,7 @@ var defaultValueMap = map[string]string{
 	"xrayTemplateConfig": config.GetDefaultXrayTemplate(),
 	"webListen":          "",
 	"webDomain":          "",
-	"webPort":            "80",
+	"webPort":            "8080",
 	"webCertFile":        "",
 	"webKeyFile":         "",
 	"secret":             random.Seq(32),
