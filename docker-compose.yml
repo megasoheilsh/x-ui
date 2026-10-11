@@ -2,7 +2,7 @@
 
 services:
   xui:
-    image: megasoheilsh/x-ui
+    image: megasoheilsh/ssh
     container_name: x-ui
     hostname: yourhostname
     volumes:
