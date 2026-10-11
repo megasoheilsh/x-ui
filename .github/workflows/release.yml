@@ -309,7 +309,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            megasoheilsh/x-ui
+            megasoheilsh/ssh
             ghcr.io/megasoheilsh/x-ui
           tags: |
             type=ref,event=branch
